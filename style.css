@@ -1,0 +1,32 @@
+body{
+	background: url(background-img.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-color: gray;
+}
+
+.my-navbar{
+	position:fixed;
+	width:100%;
+	background-color:black!important;
+	border:none!important;
+	opacity:0.6;
+}
+
+#landing{
+	position:fixed;
+	text-align:center;
+	top:60%;
+	width:100%;
+}
+
+#title{
+	color:white;
+	text-shadow: 0px 0px 5px black;
+	font-size:5em;
+}
+
+#signin_buttons{
+}
