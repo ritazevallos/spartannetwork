@@ -70,50 +70,58 @@ p {
 	</nav>
 	<div id="content">
 
-	<div class="container">
-		<div class="row">
-			<h1>CITIZENS BANK PARK SPRINT (STADIUM)</h1>
-			<p>September 20, 2014</p>
-		</div>
-		<div class="row">
-			<div class="col-md-4">
-				<img class="friendthumb" src="images/profile-1.jpg" alt="" />
-		<img class="friendthumb" src="images/profile-2.jpg" alt="" />
-		<img class="friendthumb" src="images/profile-3.jpg" alt="" />
-		<img class="friendthumb" src="images/profile-4.jpg" alt="" />
-		<img class="friendthumb" src="images/profile-5.jpg" alt="" />
-		<img class="friendthumb" src="images/profile-6.jpg" alt="" />
-		<img class="friendthumb" src="images/profile-7.jpg" alt="" />
-		<img class="friendthumb" src="images/profile-8.jpg" alt="" />
-		<img class="friendthumb" src="images/profile-9.jpg" alt="" />
-		<img class="friendthumb" src="images/profile-10.jpg" alt="" />
-		<img class="friendthumb" src="images/profile-11.jpg" alt="" />
-		<img class="friendthumb" src="images/profile-12.jpg" alt="" />
-		<img class="friendthumb" src="images/profile-13.jpg" alt="" />
-		<img class="friendthumb" src="images/profile-14.jpg" alt="" />
-		<img class="friendthumb" src="images/profile-15.jpg" alt="" />
-		<img class="friendthumb" src="images/profile-16.jpg" alt="" />
-		<img class="friendthumb" src="images/profile-17.jpg" alt="" />
-		<img class="friendthumb" src="images/profile-18.jpg" alt="" />
-		<img class="friendthumb" src="images/profile-19.jpg" alt="" />
-		<img class="friendthumb" src="images/profile-20.jpg" alt="" />
-		<img class="friendthumb" src="images/profile-21.jpg" alt="" />
-		<img class="friendthumb" src="images/profile-22.jpg" alt="" />
-		<img class="friendthumb" src="images/profile-23.jpg" alt="" />
-		<img class="friendthumb" src="images/profile-24.jpg" alt="" />
-		<img class="friendthumb" src="images/profile-25.jpg" alt="" />
-		<img class="friendthumb" src="images/profile-26.jpg" alt="" />
-		<p>500 people</p>
+		<div class="container">
+			<div class="row">
+				<h1>CITIZENS BANK PARK SPRINT <small>September 20, 2014</small></h1>
 			</div>
-			<div class="col-md-8">
+			<div class="row">
+				<div class="col-md-4">
+					<h6>
+						1000 people attending.
+					</h6>
+					<img class="friendthumb" src="images/profile-1.jpg" alt="" />
+					<img class="friendthumb" src="images/profile-2.jpg" alt="" />
+					<img class="friendthumb" src="images/profile-3.jpg" alt="" />
+					<img class="friendthumb" src="images/profile-4.jpg" alt="" />
+					<img class="friendthumb" src="images/profile-5.jpg" alt="" />
+					<img class="friendthumb" src="images/profile-6.jpg" alt="" />
+					<img class="friendthumb" src="images/profile-7.jpg" alt="" />
+					<img class="friendthumb" src="images/profile-8.jpg" alt="" />
+					<img class="friendthumb" src="images/profile-9.jpg" alt="" />
+					<img class="friendthumb" src="images/profile-10.jpg" alt="" />
+					<img class="friendthumb" src="images/profile-11.jpg" alt="" />
+					<img class="friendthumb" src="images/profile-12.jpg" alt="" />
+					<img class="friendthumb" src="images/profile-13.jpg" alt="" />
+					<img class="friendthumb" src="images/profile-14.jpg" alt="" />
+					<img class="friendthumb" src="images/profile-15.jpg" alt="" />
+					<img class="friendthumb" src="images/profile-16.jpg" alt="" />
+					<img class="friendthumb" src="images/profile-17.jpg" alt="" />
+					<img class="friendthumb" src="images/profile-18.jpg" alt="" />
+					<img class="friendthumb" src="images/profile-19.jpg" alt="" />
+					<img class="friendthumb" src="images/profile-20.jpg" alt="" />
+					<img class="friendthumb" src="images/profile-21.jpg" alt="" />
+					<img class="friendthumb" src="images/profile-22.jpg" alt="" />
+					<img class="friendthumb" src="images/profile-23.jpg" alt="" />
+					<img class="friendthumb" src="images/profile-24.jpg" alt="" />
+					<img class="friendthumb" src="images/profile-25.jpg" alt="" />
+					<img class="friendthumb" src="images/profile-26.jpg" alt="" />
+				</div>
+				<div class="col-md-8">
+					<div>
+						<div>
+							image here
+						</div>
+						<div>
+							description
+						</div>
+						<a id="" class="btn btn-primary btn-large">INFO</a>
+						<a id="" class="btn btn-primary btn-large" >REGISTER NOW</a>
+						<a id="rsvp" class="btn btn-primary btn-large" onclick="myRSVP();">RSVP</a>
+					</div>
+				</div>
 			</div>
 		</div>
-	
-	<a id="" class="button">INFO</a>
-	<a id="" class="button" >REGISTER NOW</a>
-	<a id="rsvp" class="button" onclick="myRSVP();">RSVP</a>
-	
-</div>
+	</div>
 
 <script>
 function myRSVP(){
@@ -121,15 +129,12 @@ function myRSVP(){
 	var myLabel = document.getElementById('rsvp').innerHTML;
 	if (myLabel == "RSVP") {	
 		document.getElementById('rsvp').innerHTML = Labels[1];
-		document.getElementById('rsvp').className = "button green";
 	}
 	if (myLabel == "I'M GOING") {
 		document.getElementById('rsvp').innerHTML = Labels[2];	
-		document.getElementById('rsvp').className = "button red";
 	}
 	if (myLabel == "NOT GOING") {
 	 	document.getElementById('rsvp').innerHTML = Labels[0];
-	 	document.getElementById('rsvp').className = "button white";
 	}
 }
 </script>
