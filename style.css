@@ -5,6 +5,7 @@ body{
 	-o-background-size: cover;
 	background-size: cover;
 	background-color: gray;
+	font-family: 'Avenir Next W10 Demi';
 }
 
 .my-navbar{
@@ -32,9 +33,13 @@ body{
 }
 
 #content{
+	padding-top:100px;
+	padding-left:50px;
+	padding-right:50px;
+	color:white;
 	background-color:#384647;
 	opacity:0.9;
-	width:90%;
+	width:95%;
 	margin-left:auto;
 	margin-right:auto;
 	height:100%;
