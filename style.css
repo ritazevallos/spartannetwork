@@ -30,3 +30,12 @@ body{
 
 #signin_buttons{
 }
+
+#content{
+	background-color:#495355;
+	opacity:0.9;
+	width:90%;
+	margin-left:auto;
+	margin-right:auto;
+	height:100%;
+}
